@@ -1,7 +1,2 @@
-def readFile(String name){
-    new File(name).eachLine { String line ->
-        println line
-    }
-}
-
-readFile('d:/temp/input01.txt')
+ReadFile reader = new ReadFile()
+reader.read('d:/temp/input01.txt')
